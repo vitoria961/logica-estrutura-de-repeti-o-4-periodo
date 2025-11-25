@@ -1,5 +1,7 @@
-n=int(input())
-a=1
-for b in range(1,n+1):
-    a*=b
-print(a)
+s=0
+n=0
+while n>=0:
+    n=int(input())
+    if n>=0:
+        s+=n
+print(s)
