@@ -1,5 +1,6 @@
-n=int(input())
+n=int(input("Digite:"))
 a=1
 for b in range(1,n+1):
     a*=b
 print(a)
+
